@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #e0ebeb;
+}
+section {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    padding: 1.5rem 0rem;
+    margin: 0 auto;
+}
+.page-Header {
+    color: rgba(0, 0, 0, 0.795);
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* border-bottom: 0.2rem solid #17b169; */
+}
+.border-header {
+    height: 0.25rem;
+    background-color: #17b169;
+    width: 7%;
+}
+.place-list {
+    /* border: 1px solid red; */
+    /* max-width: 15vw; */
+    padding-top: 2rem;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tour-item {
+    /* border: 1px solid blue; */
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.795);
+    width: 20vw;
+    position: relative;
+    color: black;
+}
+.tour-item > h2 {
+    margin: 1rem 1.3rem;
+    text-align: center;
+}
+.tour-item > p {
+    margin: 0.5rem 1.3rem 0.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.tour-item > h3 {
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    padding: 0.3rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: #fff;
+}
+.tour-item > img {
+    width: 100%;
+    height: 30vh;
+}
+.btn-no-int {
+    background-color: #fff;
+    color: #17b169;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.6);
+    border-radius: 0.2rem;
+    text-transform: capitalize;
+}
+.btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.7rem;
+}
+.btn-no-int:hover {
+    background-color: #17b169;
+    color: #fff;
+}
+.btn-refresh-int {
+    background-color: hsla(152, 77%, 39%, 0.9);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.6);
+    border-radius: 0.2rem;
+    text-transform: capitalize;
+}
+.btn-refresh-int:hover {
+    background-color: #17b169;
+}
+.read-more {
+    color: #17b169;
+}
